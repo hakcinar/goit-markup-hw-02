@@ -1,0 +1,97 @@
+:root {
+  --navy: #2e2f42;
+  --iris: #4d5ae5;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--navy);
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+  color: var(--white);
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+address {
+  font-style: normal;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.166;
+  text-decoration: none;
+  color: var(--navy);
+}
+.logo span {
+  color: var(--iris);
+}
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact li a {
+  color: var(--navy);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-style: none;
+}
+.hero {
+  background-color: var(--navy);
+  color: var(--white);
+}
+.hero button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.our-goals li h4 {
+}
+.our-goals li p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.our-team {
+  background-color: var(--cloud);
+}
+footer {
+  background-color: var(--navy);
+  color: var(--white);
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.166;
+  text-decoration: none;
+  color: var(--white);
+}
+.footer-logo > span {
+  color: var(--iris);
+}
