@@ -62,6 +62,11 @@ address {
 .hero {
   background-color: var(--navy);
   color: var(--white);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .hero button {
   background-color: var(--iris);
@@ -69,6 +74,8 @@ address {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 .our-goals li h4 {
 }
@@ -83,6 +90,11 @@ address {
 footer {
   background-color: var(--navy);
   color: var(--white);
+  height: 312px;
+  padding: 100px 156px;
+}
+.footer-content {
+  width: 256px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
